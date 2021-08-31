@@ -13,6 +13,6 @@ jobs:
       - name: Deploy to Heroku
         uses: behe/heroku-build@v1
         with:
-          app-name: "your-app-name-on-heroku"
+          app-name: "appjorgeluis"
           api-key: "${{secrets.HEROKU_API_KEY}}"
           path: "optional-path-of-build-to-deploy"
