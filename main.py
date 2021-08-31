@@ -3,8 +3,8 @@ import requests
 from bs4 import BeautifulSoup
 
 app = Flask(__name__)
-PORT = 5000
-DEBUG = False
+PORT = 8000
+DEBUG = True
 
 @app.errorhandler(404)
 def not_found(error):
