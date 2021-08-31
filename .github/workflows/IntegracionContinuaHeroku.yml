@@ -3,7 +3,7 @@ name: Integracion Coninua con Heroku
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
