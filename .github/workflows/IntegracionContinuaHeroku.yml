@@ -13,5 +13,5 @@ jobs:
       - uses: CDNievas/heroku-action@v1.0 # This is the action
         with:
           heroku_email: "jorgluis594@gmail.com"
-          heroku_api_key: ${{secrets.3d7b8b3c-e9ac-4fe9-9f60-52602c2ca38a}}
+          heroku_api_key: "3d7b8b3c-e9ac-4fe9-9f60-52602c2ca38a"
           heroku_app_name: "appjorgeluis"
