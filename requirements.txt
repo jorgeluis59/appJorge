@@ -1,6 +1,5 @@
 bs4
 requests
-Flask
 click==8.0.1
 colorama==0.4.4
 Flask==2.0.1
