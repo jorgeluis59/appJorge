@@ -34,7 +34,7 @@ def index():
 	tesla=souptesla.find('span',class_='Trsdu(0.3s) Fw(b) Fz(36px) Mb(-4px) D(ib)').text.strip()
 
 	
-	return 'Por JORGE LUIS, Datos extraídos de Yahoo Finance' + '  ---' + ' COTIZACIÓN Ford Motor Company: $' + ' ' +ford + ' ---'+ '  COTIZACIÓN Facebook: $'+' '+ facebook+' ---'+'  COTIZACIÓN Tesla: $'+' '+tesla+''
+	return 'Por JORGE LUIS, Datos extraídos de Yahoo Finance!' + '  ---' + ' COTIZACIÓN Ford Motor Company: $' + ' ' +ford + ' ---'+ '  COTIZACIÓN Facebook: $'+' '+ facebook+' ---'+'  COTIZACIÓN Tesla: $'+' '+tesla+''
 	
 
 if __name__ == '__main__':
