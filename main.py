@@ -13,9 +13,13 @@ def not_found(error):
 @app.route('/', methods=['GET'])
 def index():
 
-	#Nombre: Jorge Luis
+	#Autor Jorge Luis
+	
 	#Aplicación con EndPoint que consulta datos de Yahoo Finance - las cotizaciones
 	# en bolsa de la empresa Ford, Facebook y Tesla
+	
+	#recuerde que los mercados de valores tienen horas de apertura y cierre, por lo cual si el mercado ya cerró los valores permanecerán estaticos
+	#hasta la siguiente apertura.
 
 	link_ford='https://finance.yahoo.com/quote/F/financials?p=F'
 	link_facebook='https://finance.yahoo.com/quote/FB?p=FB&.tsrc=fin-srch'
